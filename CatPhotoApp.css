@@ -1,0 +1,89 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    color:brown;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h1, h2, p {
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+
+  }
+  .parent-container {
+    text-align: center;
+  }
+  
+  .parent-container ul,
+  .parent-container ol  {
+    display: inline-block;
+    text-align: center; 
+  }
+
+  figure {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    width: 400px;
+    height: 200px;
+  }
+
+  .form-container {
+    width: 5in; /* Set the width to approximately 5 inches */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+legend {
+    font-weight: bold;
+}
+label {
+    margin-right: 10px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-group input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.form-group input[type="submit"] {
+    padding: 5px 10px;
+}
+figcaption {
+    text-align: center;
+}
